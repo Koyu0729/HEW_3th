@@ -1,0 +1,566 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="shader">
+      <UniqueIdentifier>{df51822f-7df5-4640-8e7d-17718beeb372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\other">
+      <UniqueIdentifier>{14f328b6-358d-4a6d-ae46-732bc185101e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\draw">
+      <UniqueIdentifier>{2160d88e-de83-4c23-a663-cc9515ad08c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\audio">
+      <UniqueIdentifier>{8cadc91d-ebe0-4040-8a39-d364f1189ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\audio">
+      <UniqueIdentifier>{075310d4-e0d6-466d-a101-06837d35f394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node">
+      <UniqueIdentifier>{95e18abe-1ae5-41da-b965-d10c8b46d63b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node">
+      <UniqueIdentifier>{da85d0b9-9539-48da-beaf-facaf0bcfaaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\draw\moji">
+      <UniqueIdentifier>{7034177d-6f42-44e9-b860-292c6d2f7eba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\draw">
+      <UniqueIdentifier>{bd491323-18ac-41d0-a31e-e330cb1e3082}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\draw\moji">
+      <UniqueIdentifier>{b04c1d16-e278-4edd-9c4b-d252c0ddf1e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\draw\texture">
+      <UniqueIdentifier>{708e44f5-5661-44d4-b731-0ce8ee390955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\draw\model">
+      <UniqueIdentifier>{fd099d8f-a622-4059-8c7c-11847ff69675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\draw\model">
+      <UniqueIdentifier>{67299c3d-eb8d-4eb1-97dd-3345b1d86955}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\draw\texture">
+      <UniqueIdentifier>{79dccac7-7140-4c9e-8b4e-67c6f9449e2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene">
+      <UniqueIdentifier>{aacbda56-7be8-47fc-b842-0e5d25016a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\title">
+      <UniqueIdentifier>{544a1345-554b-460a-b204-ba0400b025a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\result">
+      <UniqueIdentifier>{a32ec9c7-5423-4ea1-becf-63985733899a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene">
+      <UniqueIdentifier>{b4d366d1-27de-4acf-8961-562f3bda1bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\result">
+      <UniqueIdentifier>{3defcb1b-fc49-4ce9-a2c6-13cb1e73f5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\title">
+      <UniqueIdentifier>{7c3160f3-6f0f-4a56-a8e7-45a948150aa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\load">
+      <UniqueIdentifier>{3dd2d4af-5dbe-4ac5-b6ea-4710317d2632}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\load">
+      <UniqueIdentifier>{5a5175f7-aff1-4e0c-ab6c-a7a899c6a581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\include">
+      <UniqueIdentifier>{9a9a8362-094a-41aa-bcc5-acd680e72aeb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime">
+      <UniqueIdentifier>{84e6430a-f999-47ad-ac12-35ac9f19cef4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime">
+      <UniqueIdentifier>{df6e3d86-ba88-4a29-bfe6-b38028aa4e6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager">
+      <UniqueIdentifier>{a29d878f-09c1-4b20-919e-d22c266ddc02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager">
+      <UniqueIdentifier>{48cebf92-cfdb-4e5b-ba48-ff54d104286b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\gameMenu">
+      <UniqueIdentifier>{6fd77fe1-e325-4b40-9652-e69594c6be9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\gameMenu\game">
+      <UniqueIdentifier>{22556cd5-5ad8-4ef2-b155-cff0281a5cab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\gameMenu\playerTest">
+      <UniqueIdentifier>{57ce8c20-8878-481d-b2d9-7e385cfb2344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\gameMenu\NodeEditor">
+      <UniqueIdentifier>{2c0e72d9-6a6a-4f6c-a1df-78bb1801e8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\gameMenu">
+      <UniqueIdentifier>{419f34bb-6bd1-4d5f-95cd-429a43588ceb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\gameMenu\game">
+      <UniqueIdentifier>{b931ee37-8a65-4ec9-9287-b8474d1d2153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\gameMenu\nodeEditor">
+      <UniqueIdentifier>{d71296ef-7a2f-4e1e-b907-f9f483db6052}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\gameMenu\playerTest">
+      <UniqueIdentifier>{1df18767-4be9-4762-8682-a094f1c4f199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\scene\gameMenu\playerCustom">
+      <UniqueIdentifier>{3e008a01-39df-4534-9b6c-4baca9fc9e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\scene\gameMenu\playerCustom">
+      <UniqueIdentifier>{53907aee-5470-4d1d-819a-67d1d3d011f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create">
+      <UniqueIdentifier>{a21d3c33-1c5b-42fa-bcc5-f29132963a30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\logic">
+      <UniqueIdentifier>{2cbf4cb3-ddc9-44e8-8693-73e3340cfe38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\logic\base">
+      <UniqueIdentifier>{94a2db1c-17be-4d34-98e9-051fcbe8ef70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\logic\base\move">
+      <UniqueIdentifier>{7cfa4dcf-2870-4a23-a9fd-a33216d7cdca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\logic\base\branch">
+      <UniqueIdentifier>{e0effa2b-2e96-4652-a00c-f4f026724f78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\logic\base\attack">
+      <UniqueIdentifier>{f7dd55f3-ecd1-41a9-812e-bfe57462189a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\logic\base\action">
+      <UniqueIdentifier>{4324d1dd-d351-43a5-815b-052997c04a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\node\runtime\manager\create\view">
+      <UniqueIdentifier>{aa3573ec-2a6d-4147-ab77-9f2a9730dae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create">
+      <UniqueIdentifier>{0adc817e-4480-438a-9ee5-a94abc35d704}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\base">
+      <UniqueIdentifier>{61ba855a-5efd-408d-9679-419287bd2767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\base\attack">
+      <UniqueIdentifier>{280ad847-fbb7-42eb-9963-5044235b7c1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\base\move">
+      <UniqueIdentifier>{95ea7f0b-5d98-457d-b99b-061da3c6ef09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\base\branch">
+      <UniqueIdentifier>{5d6fe402-5363-427d-b4c7-f6faee6b24c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\base\action">
+      <UniqueIdentifier>{bc07760f-e308-4347-96ee-feed0316e890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\view">
+      <UniqueIdentifier>{879ff3b3-5933-409f-b6d0-2011caa80aba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\node\runtime\manager\create\logic">
+      <UniqueIdentifier>{dbf76dca-7727-4cb4-ae4d-d4bd9bf205e0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bullet.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="button.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="explosion.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="field.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="time.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="sky.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="score.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\game</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル\scene\title</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル\scene\result</Filter>
+    </ClCompile>
+    <ClCompile Include="manager.cpp">
+      <Filter>ソース ファイル\other</Filter>
+    </ClCompile>
+    <ClCompile Include="kosuCRI.cpp">
+      <Filter>ソース ファイル\audio</Filter>
+    </ClCompile>
+    <ClCompile Include="loadingScene.cpp">
+      <Filter>ソース ファイル\scene\load</Filter>
+    </ClCompile>
+    <ClCompile Include="modelRenderer.cpp">
+      <Filter>ソース ファイル\draw\model</Filter>
+    </ClCompile>
+    <ClCompile Include="renderer.cpp">
+      <Filter>ソース ファイル\draw\model</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>ソース ファイル\draw\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="polygon.cpp">
+      <Filter>ソース ファイル\draw\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="polyTex.cpp">
+      <Filter>ソース ファイル\draw\texture</Filter>
+    </ClCompile>
+    <ClCompile Include="moji.cpp">
+      <Filter>ソース ファイル\draw\moji</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>ソース ファイル\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="nodeView.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\view</Filter>
+    </ClCompile>
+    <ClCompile Include="nodeEditor.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\nodeEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="nodeManager.cpp">
+      <Filter>ソース ファイル\node\runtime\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="nodeRuntime.cpp">
+      <Filter>ソース ファイル\node\runtime</Filter>
+    </ClCompile>
+    <ClCompile Include="attack1.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\attack</Filter>
+    </ClCompile>
+    <ClCompile Include="moveForward.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\move</Filter>
+    </ClCompile>
+    <ClCompile Include="if1.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="drawLine.cpp">
+      <Filter>ソース ファイル\node\runtime\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="start.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base</Filter>
+    </ClCompile>
+    <ClCompile Include="moveBack.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\move</Filter>
+    </ClCompile>
+    <ClCompile Include="jump.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\move</Filter>
+    </ClCompile>
+    <ClCompile Include="stop.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\move</Filter>
+    </ClCompile>
+    <ClCompile Include="moveToTarget.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\move</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル\scene\game</Filter>
+    </ClCompile>
+    <ClCompile Include="playerTest.cpp">
+      <Filter>ソース ファイル\scene\gameMenu\playerTest</Filter>
+    </ClCompile>
+    <ClCompile Include="gameMenu.cpp">
+      <Filter>ソース ファイル\scene\gameMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="ifFindObject.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\branch</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="search.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create\logic\base\action</Filter>
+    </ClCompile>
+    <ClCompile Include="meshField.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="nodeCreate.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create</Filter>
+    </ClCompile>
+    <ClCompile Include="nodeCreateList.cpp">
+      <Filter>ソース ファイル\node\runtime\manager\create</Filter>
+    </ClCompile>
+    <ClCompile Include="textObject.cpp">
+      <Filter>ソース ファイル\draw\moji</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="manager.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="field.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="component.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gameObject.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="explosion.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="screen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="button.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル\scene\title</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル\scene\result</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_Manager.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="time.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sky.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="kosuCRI.h">
+      <Filter>ヘッダー ファイル\audio</Filter>
+    </ClInclude>
+    <ClInclude Include="bullet.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="loadingScene.h">
+      <Filter>ヘッダー ファイル\scene\load</Filter>
+    </ClInclude>
+    <ClInclude Include="score.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\game</Filter>
+    </ClInclude>
+    <ClInclude Include="polyTex.h">
+      <Filter>ヘッダー ファイル\draw\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="polygon.h">
+      <Filter>ヘッダー ファイル\draw\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="texture.h">
+      <Filter>ヘッダー ファイル\draw\texture</Filter>
+    </ClInclude>
+    <ClInclude Include="modelRenderer.h">
+      <Filter>ヘッダー ファイル\draw\model</Filter>
+    </ClInclude>
+    <ClInclude Include="renderer.h">
+      <Filter>ヘッダー ファイル\draw\model</Filter>
+    </ClInclude>
+    <ClInclude Include="moji.h">
+      <Filter>ヘッダー ファイル\draw\moji</Filter>
+    </ClInclude>
+    <ClInclude Include="fontList.h">
+      <Filter>ヘッダー ファイル\draw\moji</Filter>
+    </ClInclude>
+    <ClInclude Include="customFontLoader.h">
+      <Filter>ヘッダー ファイル\draw\moji</Filter>
+    </ClInclude>
+    <ClInclude Include="branchBase.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>ヘッダー ファイル\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="vector2.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeView.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\view</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeIncludes.h">
+      <Filter>ヘッダー ファイル\node\include</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeEditor.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\NodeEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeRuntime.h">
+      <Filter>ヘッダー ファイル\node\runtime</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeManager.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="attackBase.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeBase.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="moveBase.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base</Filter>
+    </ClInclude>
+    <ClInclude Include="attack1.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\attack</Filter>
+    </ClInclude>
+    <ClInclude Include="moveForward.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\move</Filter>
+    </ClInclude>
+    <ClInclude Include="if1.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="drawLine.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="start.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base</Filter>
+    </ClInclude>
+    <ClInclude Include="nlohmann\json.hpp">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="jump.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\move</Filter>
+    </ClInclude>
+    <ClInclude Include="stop.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\move</Filter>
+    </ClInclude>
+    <ClInclude Include="moveToTarget.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\move</Filter>
+    </ClInclude>
+    <ClInclude Include="moveBack.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="ifSituation.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="ifShieldBreak.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="ifRangeIO.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="ifPlayerStats.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="ifFindObject.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\branch</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル\scene\game</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="playerTest.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu\playerTest</Filter>
+    </ClInclude>
+    <ClInclude Include="gameMenu.h">
+      <Filter>ヘッダー ファイル\scene\gameMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="actionBase.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base</Filter>
+    </ClInclude>
+    <ClInclude Include="search.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create\base\action</Filter>
+    </ClInclude>
+    <ClInclude Include="meshField.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeCreate.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeCreateList.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create</Filter>
+    </ClInclude>
+    <ClInclude Include="textObject.h">
+      <Filter>ヘッダー ファイル\draw\moji</Filter>
+    </ClInclude>
+    <ClInclude Include="nodeList.h">
+      <Filter>ヘッダー ファイル\node\runtime\manager\create</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="shader\common.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTexturePS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\unlitTextureVS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingVS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+    <FxCompile Include="shader\vertexLightingPS.hlsl">
+      <Filter>shader</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
